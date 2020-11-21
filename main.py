@@ -46,9 +46,6 @@ from postgres.interaccio import bloquejar_usuari
 from postgres.interaccio import data_actual
 from postgres.interaccio import hora_actual
 
-#text = "Bones gent! Sóc un Bot que gestiona aquest perfil de Twitter. El meu desenvolupador, és a dir, el meu pare, m'ha explicat que vol fer una sol·licitud a @unicode perquè la senyera sigui icona pel WhatsApp, Facebook, Twitter... Com que la sol·licitud es podrà enviar després del dia 2 d'abril de l'any 2021 (si el coronavirus ens deixa), el meu creador, està estructurant aquest projecte perquè estiguem tots implicats. Inclús jo! Que tot i ser un bot, el meu creador m'ha donat la confiança d'administrar el perfil de Twitter per tal què aquest missatge arribi beeeeen lluny."
-#print(missatge(text,False,False))
-
 print(tendenciesf("BCN"))
 
 #print(missatge("Bon dia! "+data_actual_tweet()+". Com esteu? Comenteu!",False,False))
